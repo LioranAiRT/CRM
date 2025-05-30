@@ -1,0 +1,108 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #1B1C1C 0%, #0D5B57 100%);
+  color: #D6DBDA;
+  transition: background 0.5s;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 32px 40px;
+  background: rgba(28, 107, 104, 0.85);
+  box-shadow: 0 4px 24px rgba(13,91,87,0.18);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  backdrop-filter: blur(8px);
+}
+
+.app-logo {
+  width: 56px;
+  height: 56px;
+  margin-right: 22px;
+}
+
+.app-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #D6DBDA;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 12px #0D5B57;
+}
+
+.survey-builder-container {
+  max-width: 900px;
+  margin: 48px auto;
+  background: rgba(47,47,47,0.85);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(27,28,28,0.18);
+  padding: 40px;
+  backdrop-filter: blur(4px);
+}
+
+button {
+  background: linear-gradient(90deg, #1C6B68 0%, #0D5B57 100%);
+  color: #D6DBDA;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 600;
+  margin: 8px 8px 8px 0;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(13,91,87,0.12);
+  transition: background 0.3s, transform 0.2s;
+}
+button:hover {
+  background: linear-gradient(90deg, #0D5B57 0%, #1C6B68 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+input, select {
+  background: rgba(214,219,218,0.08);
+  color: #D6DBDA;
+  border: 1px solid #1C6B68;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 6px 0;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+input:focus, select:focus {
+  border: 1.5px solid #0D5B57;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  /* ...restul stilurilor... */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #2F2F2F;
+}
+::-webkit-scrollbar-thumb {
+  background: #1C6B68;
+  border-radius: 8px;
+}
+.dashboard-cards-rect {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 32px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 750px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dashboard-card-rect {
+  flex: 1 1 320px;
+  min-width: 280px;
+  max-width: 340px;
+  margin: 0;
+}

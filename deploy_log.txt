@@ -1,0 +1,16 @@
+=== Lioran Survey Builder - Deploy Local === 
+ 
+C:\Program Files\nodejs\node.exe
+=== Instalare dependente npm... === 
+
+up to date, audited 1345 packages in 27s
+
+269 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
